@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prompt:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>System Status - GHCC Digital Hub</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+</head>
+
+<body>
+    <header id="header"></header>
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>System Status</h1>
+                <p>Monitor availability of key company systems.</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="section-header">
+                <h2>Overview</h2>
+            </div>
+
+            <div id="status-summary"></div>
+        </section>
+
+        <section class="container">
+            <div class="section-header">
+                <h2>System Details</h2>
+            </div>
+
+            <div id="status-container" class="grid"></div>
+        </section>
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="../js/component-loader.js"></script>
+    <script src="../js/settings-loader.js"></script>
+    <script src="../js/navigation.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/datetime.js"></script>
+    <script src="../js/status-loader.js"></script>
+</body>
+
+</html>
+

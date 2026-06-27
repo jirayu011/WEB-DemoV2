@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prompt:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Announcements - GHCC Digital Hub</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+</head>
+
+<body>
+    <header id="header"></header>
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Announcements Center</h1>
+                <p>Stay updated with the latest company news and information</p>
+            </div>
+        </section>
+
+        <section class="announcement-search">
+            <div class="container">
+                <div class="search-box">
+                    <input
+                        type="text"
+                        id="announcement-search"
+                        placeholder="Search announcements..."
+                        aria-label="Search announcements">
+
+                    <button type="button" aria-label="Search">Search</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="announcement-filter">
+            <div class="container">
+                <button class="filter-btn active" type="button" data-category="all">All</button>
+                <button class="filter-btn" type="button" data-category="IT">IT</button>
+                <button class="filter-btn" type="button" data-category="HR">HR</button>
+                <button class="filter-btn" type="button" data-category="Management">Management</button>
+            </div>
+        </section>
+
+        <section class="priority-filter">
+            <div class="container">
+                <button class="priority-btn active" type="button" data-priority="all">All Priority</button>
+                <button class="priority-btn critical" type="button" data-priority="Critical">Critical</button>
+                <button class="priority-btn important" type="button" data-priority="Important">Important</button>
+                <button class="priority-btn normal" type="button" data-priority="General">General</button>
+            </div>
+        </section>
+
+        <section class="announcement-info">
+            <div class="container">
+                <h3 id="announcement-count">0 Announcements Available</h3>
+            </div>
+        </section>
+
+        <section class="announcement-section">
+            <div class="container">
+                <div id="announcement-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="../js/component-loader.js"></script>
+    <script src="../js/settings-loader.js"></script>
+    <script src="../js/navigation.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/datetime.js"></script>
+    <script src="../js/announcement-loader.js"></script>
+</body>
+
+</html>
+

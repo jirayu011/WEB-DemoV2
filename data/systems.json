@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Webmail",
+        "icon": "MAIL",
+        "category": "Mail",
+        "description": "Company webmail access.",
+        "url": "https://webmail.bangkokaircatering.com/webmail/",
+        "favorite": true
+    },
+    {
+        "name": "E-Business Plus",
+        "icon": "HR",
+        "category": "E-Leave",
+        "description": "Employee leave and HR self-service.",
+        "url": "https://hr.bac-group.net/LoginERS/Login.aspx",
+        "favorite": true
+    },
+    {
+        "name": "BAC Soulciety",
+        "icon": "HR",
+        "category": "E-Leave",
+        "description": "Employee communication and company activity portal.",
+        "url": "https://bacsoulciety.bac-group.net/wp-login.php?redirect_to=https%3A%2F%2Fbacsoulciety.bac-group.net%2F",
+        "favorite": true
+    },
+    {
+        "name": "Document Search",
+        "icon": "DOC",
+        "category": "Operation",
+        "description": "Search operational documents by branch.",
+        "favorite": true,
+        "branches": [
+            {
+                "name": "BHQ",
+                "url": "http://10.10.10.209/neptune_ghcc/qa_document_search.php"
+            },
+            {
+                "name": "BHN",
+                "url": "http://10.10.10.209/neptune_bhn/qa_document_search.php"
+            },
+            {
+                "name": "BNH",
+                "url": "http://10.10.10.209/neptune_bnh/qa_document_search.php"
+            },
+            {
+                "name": "BSM",
+                "url": "http://10.10.10.209/neptune_bsm/qa_document_search.php"
+            },
+            {
+                "name": "SPH",
+                "url": "http://10.10.10.209/neptune_sph/qa_document_search.php"
+            }
+        ]
+    },
+    {
+        "name": "E-Document",
+        "icon": "DOC",
+        "category": "Operation",
+        "description": "Branch document management system.",
+        "favorite": true,
+        "branches": [
+            {
+                "name": "BHQ",
+                "url": "http://10.10.10.209/neptune_ghcc/"
+            },
+            {
+                "name": "BHN",
+                "url": "http://10.10.10.209/neptune_bhn/"
+            },
+            {
+                "name": "BNH",
+                "url": "http://10.10.10.209/neptune_bnh/"
+            },
+            {
+                "name": "BSM",
+                "url": "http://10.10.10.209/neptune_bsm/"
+            },
+            {
+                "name": "SPH",
+                "url": "http://10.10.10.209/neptune_sph/"
+            }
+        ]
+    },
+    {
+        "name": "PM",
+        "icon": "PM",
+        "category": "Operation",
+        "description": "Preventive maintenance access by branch.",
+        "favorite": true,
+        "branches": [
+            {
+                "name": "BHQ",
+                "url": "http://10.50.30.93/PM_V2/AccessPage"
+            },
+            {
+                "name": "BNH",
+                "url": "http://10.10.10.28/PMBNH/AccessPage"
+            }
+        ]
+    },
+    {
+        "name": "Car ODOO",
+        "icon": "CAR",
+        "category": "Operation",
+        "description": "Vehicle management and car operation system.",
+        "url": "http://58.137.97.21:3333/web/login",
+        "favorite": true
+    },
+    {
+        "name": "Saturn",
+        "icon": "OPS",
+        "category": "Operation",
+        "description": "Internal operation system.",
+        "url": "http://10.10.10.209/saturn_bac/login.php",
+        "favorite": true
+    },
+    {
+        "name": "I-Top",
+        "icon": "IT",
+        "category": "Operation",
+        "description": "IT service management portal.",
+        "url": "http://10.10.10.186/itop/pages/UI.php",
+        "favorite": true
+    },
+    {
+        "name": "Dashboard",
+        "icon": "BI",
+        "category": "Operation",
+        "description": "Company dashboard and operation reports.",
+        "url": "http://10.10.10.186/itop/pages/UI.php",
+        "favorite": true
+    }
+]

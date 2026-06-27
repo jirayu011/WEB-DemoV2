@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prompt:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Applications - GHCC Digital Hub</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+</head>
+
+<body>
+    <header id="header"></header>
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Applications Center</h1>
+                <p>Access all company systems in one place</p>
+            </div>
+        </section>
+
+        <section class="application-search">
+            <div class="container">
+                <div class="search-box">
+                    <input
+                        type="text"
+                        id="search-input"
+                        placeholder="Search applications..."
+                        aria-label="Search applications">
+
+                    <button type="button" aria-label="Search">Search</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-filter">
+            <div class="container">
+                <button class="filter-btn active" type="button" data-category="all">All</button>
+                <button class="filter-btn" type="button" data-category="Mail">Mail</button>
+                <button class="filter-btn" type="button" data-category="E-Leave">E-Leave</button>
+                <button class="filter-btn" type="button" data-category="Operation">Operation</button>
+            </div>
+        </section>
+
+        <section class="application-info">
+            <div class="container">
+                <h3 id="system-count">0 Applications Available</h3>
+            </div>
+        </section>
+
+        <section class="applications-section">
+            <div class="container">
+                <div id="systems-container" class="application-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <div id="branch-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="branch-title">
+        <div class="modal-content">
+            <h2 id="branch-title">Select Branch</h2>
+            <p class="modal-subtitle">Choose your location</p>
+            <div id="branch-list"></div>
+            <button id="close-modal" type="button">Close</button>
+        </div>
+    </div>
+
+    <footer id="footer"></footer>
+
+    <script src="../js/component-loader.js"></script>
+    <script src="../js/settings-loader.js"></script>
+    <script src="../js/navigation.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/datetime.js"></script>
+    <script src="../js/system-loader.js"></script>
+</body>
+
+</html>
+

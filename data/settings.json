@@ -1,0 +1,34 @@
+{
+    "portalName": "GHCC Digital Hub",
+
+    "version": "1.0.0",
+
+    "environment": "Production",
+
+    "company": "GHCC",
+
+    "support": {
+
+        "department": "IT Department",
+
+        "phone": "1234",
+
+        "email": "it.support@ghcc.local",
+
+        "serviceHours": "Mon - Fri 08:00 - 17:30"
+
+    },
+
+
+    "feature": {
+
+        "darkMode": true,
+
+        "search": true,
+
+        "announcement": true,
+
+        "systemStatus": true
+
+    }
+}

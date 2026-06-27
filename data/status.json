@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Webmail",
+        "status": "online",
+        "message": "Webmail is available.",
+        "lastUpdate": "2026-06-15T09:00:00+07:00"
+    },
+    {
+        "name": "E-Business Plus",
+        "status": "online",
+        "message": "HR self-service is operating normally.",
+        "lastUpdate": "2026-06-15T09:00:00+07:00"
+    },
+    {
+        "name": "Document Search",
+        "status": "maintenance",
+        "message": "Some branches may be slower during scheduled document indexing.",
+        "lastUpdate": "2026-06-15T10:30:00+07:00"
+    },
+    {
+        "name": "I-Top",
+        "status": "online",
+        "message": "IT service portal is available.",
+        "lastUpdate": "2026-06-15T09:15:00+07:00"
+    },
+    {
+        "name": "Dashboard",
+        "status": "offline",
+        "message": "Dashboard access is temporarily unavailable.",
+        "lastUpdate": "2026-06-15T11:00:00+07:00"
+    }
+]

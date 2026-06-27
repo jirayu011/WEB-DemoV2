@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Network Maintenance",
+        "description": "Scheduled network maintenance tonight from 22:00 - 23:00",
+        "content": "The IT Department will perform scheduled maintenance on the internal network. During this period, some systems may be temporarily unavailable. Please save your work before the maintenance window.",
+        "category": "IT",
+        "priority": "Critical",
+        "author": "IT Department",
+        "publishDate": "2026-06-15",
+        "pin": true
+    },
+
+
+    {
+        "id": 2,
+        "title": "Annual Company Meeting",
+        "description": "All employees are invited to join the annual company meeting.",
+        "content": "The annual meeting will cover company performance, future strategy, and upcoming projects. Your participation is highly appreciated.",
+        "category": "HR",
+        "priority": "Important",
+        "author": "Human Resource Department",
+        "publishDate": "2026-06-10",
+        "pin": false
+    },
+
+
+    {
+        "id": 3,
+        "title": "New Employee Benefit Program",
+        "description": "Updated employee benefits are now available.",
+        "content": "The company has introduced a new benefit program including health packages, training support, and employee activities.",
+        "category": "HR",
+        "priority": "General",
+        "author": "Human Resource Department",
+        "publishDate": "2026-06-08",
+        "pin": false
+    },
+
+
+    {
+        "id": 4,
+        "title": "New Dashboard Released",
+        "description": "Management dashboard version 2.0 is now available.",
+        "content": "The new dashboard provides better reporting, improved performance, and easier access to business analytics.",
+        "category": "Management",
+        "priority": "General",
+        "author": "Business Intelligence Team",
+        "publishDate": "2026-06-05",
+        "pin": false
+    },
+
+
+    {
+        "id": 5,
+        "title": "System Security Update",
+        "description": "Important security updates will be applied this weekend.",
+        "content": "The IT team will update security patches on all internal servers to improve protection against vulnerabilities.",
+        "category": "IT",
+        "priority": "Important",
+        "author": "IT Security Team",
+        "publishDate": "2026-06-01",
+        "pin": false
+    }
+]
